@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.background--primary, .background--primary-hover:hover {
+  background-color: #000000;
+}
+
+.contrast_text--primary, .contrast_text--primary-hover:hover {
+  color: #ffffff;
+}
+
+.header-announcement__text {
+  text-align: center;
+  padding: 10px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.9375rem;
+}
+
+.navbar {
+  width: 100%;
+  color: #fff;
+  height: 70px;
+  background-color: #F6D7A7;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px 10px;
+}
+
+.navbar .buttom a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.navbar .buttom a:hover {
+  background-color: #ddd;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+.card {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+}
+.float{
+	position:fixed; 
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+body{
+  background-color: #FAEEE0 ;
+}
+main{
+  margin: 5rem;
+}
+.carrousel{
+  margin-top: 2rem;
+}
+/*Aca empieza tips.html*/
+h2{
+ text-align: center;
+ padding-top: 2rem;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ 
+ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+  }
+.breadcrumb{
+ padding-top: 10px;
+ margin: 2rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  padding: 4px;
+}
+.lista{
+  padding: 25px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+h3{
+  padding: 4px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+strong{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  padding: 2px;
+}
+
+/*Aca empieza el Footer*/
+.redes-container{
+  display: flex;
+  height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.redes-container ul li{
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.redes-container ul li a{
+  display: block;
+  padding: 0 10px;
+  background-color: #333;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+  transition: .2s;
+}
+
+.redes-container ul:hover a{
+  filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+  transform: translate(-3px)  scale(1.05);
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .4);
+  filter: none;
+}
+
+.redes-container ul li .facebook{
+  background: rgb(56, 168, 206)
+}
+.redes-container ul li .Gmail{
+  background: rgb(245, 119, 35)
+}
+.redes-container ul li .Instagram{
+  background: cross-fade(rgb(230, 69, 5) orange)
+}
+
+/*Aca comienza "Nosotros"*/
+
+  @media (min-width: 576px) {
+    .card-img-top {
+        height: 35vw;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-img-top {
+        height: 16vw;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 11vw;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 23vw;
+    }
+  }
+
+  /*Aca comienza "Contactanos"*/
+
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: grey;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+  
